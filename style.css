@@ -61,7 +61,7 @@ ul li a:hover{
 .landingpage{
   position:relative;
   z-index: 1;
-  background-image:url("img/ldgpg.jpg");
+  background-image:url("img/ldgpg.JPG");
   width: 100vw;
   height:100vh;
   background-size: cover;
@@ -83,7 +83,7 @@ h1 a:hover{
 
 .articlecontainer{
   display: inline-block;
-  background-image: url("img/article.jpg");
+  background-image: url("img/article.JPG");
   height:100vh;
   width:100vw;
   background-size: cover;
