@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Feedback </title>
+  <link href="feedback.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/00d9d486d5.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="header">
+    <div class="con1">
+      <div id="logo">
+        <i class="fas fa-film"></i>
+      </div>
+      <div id="button">
+        <h2>Donate Now!</h2>
+      </div>
+    </div>
+    <nav class="con2">
+      <ul id="nav">
+        <li> <a href="index.html">Home</a></li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="form">
+      <div>
+        <form class="content" action="index.html" method="post">
+          <div class="kolom">
+            <label for="firstname">First Name:</label>
+              <input class="shorttext" type="text" name="firstname" id="firstname" value=""><br>
+            <label for="lastname">Last Name:</label>
+              <input class="shorttext" type="text" name="lastname" id="lastname" value=""><br>
+            <label for="email">Email Address:</label>
+              <input style="margin-left:32px;"class="shorttext" type="email" name="email" id="email" value=""><br>
+
+            <p class="par">Gender: </p>
+            <input type="radio" name="gender" id="gender" value="male">
+              <label class="option" for="gender">Male</label><br>
+            <input type="radio" name="gender" id="gender" value="female">
+              <label class="option" for="gender">Female</label><br>
+
+            <p class="par">Which picture you would like to choose? </p>
+            <input type="checkbox" name="picture" id="picture" value="Kodak200">
+              <label class="option" for="picture">Kodak Color 200</label><br>
+            <input type="checkbox" name="picture" id="picture" value="Fuji200">
+              <label class="option" for="picture">Fuji Color 200</label><br>
+            <input type="checkbox" name="picture" id="picture" value="Ilford400">
+              <label class="option" for="picture">Ilford Delta 400</label>   <br>
+          </div>
+          <div class="kolom">
+            <label for="pictrange1">Select your picture: </label>
+              <select id="pictrange1" name="pictrange">
+                <option value="Kodak200">Kodak Color 200</option>
+                <option value="Fuji200">Fuji Color 200</option>
+                <option value="Ilford400">Ilford Delta 200</option>
+                <option value="none">None</option>
+              </select><br>
+            <label for="range1">Rating from a scale of 10?</label>
+              <input class="slider" type="range" name="range1" min="0" max="10" step="0.5" ><br>
+
+            <label for="pictrange1">Select your picture: </label>
+              <select id="pictrange1" name="pictrange">
+                <option value="Kodak200">Kodak Color 200</option>
+                <option value="Fuji200">Fuji Color 200</option>
+                <option value="Ilford400">Ilford Delta 200</option>
+                <option value="none">None</option>
+              </select><br>
+            <label for="range1">Rating from a scale of 10?</label>
+              <input class="slider" type="range" name="range1" min="0" max="10" step="0.5" ><br>
+
+            <label for="pictrange1">Select your picture: </label>
+              <select id="pictrange1" name="pictrange">
+                <option value="Kodak200">Kodak Color 200</option>
+                <option value="Fuji200">Fuji Color 200</option>
+                <option value="Ilford400">Ilford Delta 200</option>
+                <option value="none">None</option>
+              </select><br>
+            <label for="range1">Rating from a scale of 10?</label>
+              <input class="slider"type="range" name="range1" min="0" max="10" step="0.5" ><br>
+
+            <label for="textfeedback">Other Feedback: </label><br>
+              <textarea id="textfeedback" rows="8" cols="40">write here!</textarea><br>
+
+            <input id="submit" type="submit" value="send">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h3>® Naufal Yunan, 2020</h3>
+  </footer>
+</body>
+
+</html>
